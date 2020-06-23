@@ -21,7 +21,7 @@ for (let i = 0; i < arr.length; i++) {
         count += map[sum - k]    
     }
 
-    //If the sum hasn't occurred yet, make it 0. Else, add one to it.
+    //If the sum hasn't occurred yet, make its frequency 0. Else, add one to it.
     map[sum] = (map[sum] || 0) + 1
 }
 
